@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+:root{
+    --cor_principal: #926400;
+    --cor_secundaria: #f5ba3a;
+    --cor_terciaria: #8a7039;
+    --cor_de_contraste: #664a0d;
+    --cor_mais_escura: #2e2102;
+}
+
+nav a:hover{
+    background-color: var(--cor_de_contraste);
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(../images/pergaminho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: var(--cor_principal);
+    height: 10vh;
+    padding: 10px 0px;
+}
+
+header a{
+    color: var(--cor_mais_escura);
+    padding: 5px;
+}
+
+nav{
+    display: inline-block;
+    margin-right: 30px;
+    min-width: 350px;
+}
+
+main{
+    background-color: var(--cor_terciaria);
+    max-width: 1150px;
+    min-width: 400px;
+    height: 87vh;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--cor_principal);
+    padding: 15px;
+    text-align: center;
+    height: 3vh;
+}
+
+.logo{
+    width: 250px;
+    margin: 0px  20px 5px 10px;
+}
