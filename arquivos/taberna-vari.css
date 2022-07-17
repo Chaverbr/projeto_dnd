@@ -169,7 +169,7 @@ button:hover{
     width: 400px;
     height: 100px;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     padding-right: 30px;
     text-transform: uppercase;
 }
@@ -186,9 +186,5 @@ button:hover{
 }
 
 .label1{
-    margin-bottom: 20px;
-}
-
-.label2{
-    margin-right: 5px;
+    margin-bottom: 0px;
 }
