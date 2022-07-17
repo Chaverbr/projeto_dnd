@@ -29,6 +29,11 @@ header h1 a{
     margin-left: 50px;
     cursor: pointer;
     color: white;
+    transition: all 0.3s ease;
+}
+
+header h1 a:hover{
+    color: rgba(255, 255, 255, 0.568);
 }
 
 header ul{
@@ -46,9 +51,7 @@ header ul li a{
     transition: all 0.3s ease;
 }
 
-header ul li:hover #fist{
-    color: rgba(255, 255, 255, 0.568);
-}
+
 
 /* sub-menu */
 
